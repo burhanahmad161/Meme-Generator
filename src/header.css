@@ -1,0 +1,17 @@
+.mainDiv
+{
+    margin-top: 3%;
+    text-align: center;
+    background-color: #6c092b;
+    padding-left: 10%;
+    color: white;
+    gap: 1400px;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.subDiv
+{
+    display: inline-flex;  
+}

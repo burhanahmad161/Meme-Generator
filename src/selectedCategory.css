@@ -1,0 +1,32 @@
+label{
+    margin-left: 30%;
+    font-size: 3em;
+}
+.meme-options{
+    color:#6c092b;
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 3em;
+}
+button
+{
+    margin-left: 50%;
+    margin-top: 4% ;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6c092b;
+    font-size: 1.4em;
+    overflow: hidden;
+    transition: 0.5s;
+}
+button:hover {
+    background:#6c092b;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #6c092b, 0 0 25px #6c092b, 0 0 50px #ff11d7, 0 0 100px #ff2aed;
+  }
+  .category-label {
+    margin-bottom: 10px;
+    font-size: 3em;
+    color: #6c092b;
+  }

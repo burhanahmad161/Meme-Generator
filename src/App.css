@@ -1,0 +1,70 @@
+.inputLine:hover {
+  background-color: rgb(226, 138, 197);
+}
+
+.inputLine {
+  justify-content: center;
+  text-align: center;
+  width: 20%; /* Use relative units for responsiveness */
+  margin: 0 auto; /* Center the input horizontally */
+  color: black;
+  border-radius: 2vw; /* Use relative units for responsiveness */
+  font-size: 2vw; /* Use relative units for responsiveness */
+}
+
+#subDiv {
+  margin-top: 5vh; /* Use relative units for responsiveness */
+  text-align: center;
+}
+
+.button1 {
+  margin-left: 43%;
+  margin-top: 1.5vh; /* Use relative units for responsiveness */
+  font-size: 1.4vw; /* Use relative units for responsiveness */
+  border-radius: 2vw; /* Use relative units for responsiveness */
+  font-weight: bold;
+  cursor: pointer;
+}
+.button2 {
+  margin-left: 45%;
+  margin-top: 1.5vh; /* Use relative units for responsiveness */
+  font-size: 1.4vw; /* Use relative units for responsiveness */
+  border-radius: 2vw; /* Use relative units for responsiveness */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button1:hover,.button2:hover {
+  background-color:#6c092b;
+  color: rgb(88, 51, 175);
+}
+.imageDiv {
+  margin-top: 5vh; /* Use relative units for responsiveness */
+  position: relative;
+  text-align: center;
+}
+
+.imageProp {
+  width: 50%; /* Adjust based on your design */
+  height: auto;
+  position: relative;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.topText,
+.bottomText {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2em; /* Use relative units for responsiveness */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.topText {
+  top: -2vw; /* Use relative units for responsiveness */
+}
+
+.bottomText {
+  bottom: -2vw; /* Use relative units for responsiveness */
+}
